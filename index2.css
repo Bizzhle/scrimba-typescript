@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.nav-bar {
+    width: 100%;
+    position: sticky;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 12%) 0 1px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container {
+    margin: 20px;
+}
+
+.properties {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    
+    width: 150px;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgb(0 0 0 / 12%) 0 1px 8px;
+}
+
+img {
+    object-fit: contain;
+    width: 150px;
+  
+}
